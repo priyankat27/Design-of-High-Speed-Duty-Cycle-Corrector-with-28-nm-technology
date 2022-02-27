@@ -42,15 +42,28 @@ cycle Detector (DCC).</br>
 Block diagram of the proposed circuit is
 </p>
 
- 
-<p align="center">
-<img src="">
-</p>
-<p align="center">
-Fig 1. Block diagram of basic charge pump PLL
-</p>
 
 ## Reference Circuit Design
+- Duty Cycle Adjuster(DCA)</br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/155891857-50f9a78f-bfb5-41b3-b059-502c01ad1c0d.png">
+</p>
+
+- Buffer</br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/155891921-d5d1b5bb-bb6f-495e-8a3f-d87a0008fbab.png">
+</p>
+
+- Duty Cycle Detector( DCD)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/155891962-a87b0441-cba7-416e-ae93-b9d0aca89d2b.png">
+</p>
+
+- Duty Cycle Corrector (DCC)</br>
+the cascaded ------------------
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/155892002-1e3623a1-0b2c-4766-ae21-62f97686010c.png">
+</p>
 
 
 
