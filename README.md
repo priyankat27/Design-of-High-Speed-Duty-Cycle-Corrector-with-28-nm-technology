@@ -14,9 +14,33 @@
 - Acknowledgements
 - References
 ## Abstract
+High Speed Duty Cycle Corrector (DCC) is
+implemented with 28nm technology using MOSFETS. The
+proposed duty cycle corrector is 50% correction format. The
+range for the correction of the DCC lies between 20% to 80% of
+the signal. Duty cycle corrector (DCC) locks the edge rates of the
+signal to achieve the 50% duty cycle and avoid detection error in
+clock signal for DDR reception. The High voltage level
+corresponds to “1” and low to “0” respectively. For detecting the
+voltage level AC coupled circuit or DC coupled circuit with
+reference level are used. Its application varies from DDR
+synchronous DRAM, Double sampling ADC and many more
+with collaboration with Phase lock loops
+
 
 
 ## Introduction
+Circuit being proposed in this paper consists of three major
+components Duty cycle adjuster (DCA) buffered with Duty
+cycle Detector (DCC).</br>
+
+</br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/155891764-91fec4b1-6dc4-4238-af28-0ab5c1a4151f.png">
+</p>
+<p align="center">
+Block diagram of the proposed circuit is
+</p>
 
  
 <p align="center">
