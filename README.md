@@ -61,7 +61,7 @@ Block diagram of the proposed circuit is
 </p>
 
 - Duty Cycle Corrector (DCC)</br>
-the cascaded ------------------
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100523474/155892002-1e3623a1-0b2c-4766-ae21-62f97686010c.png">
 </p>
