@@ -3,9 +3,9 @@
 ## Table of Contents
 
 - Abstract 
-- 
-- 
-- 
+- Introduction
+- Reference Circuit Design
+- Expected waveform
 - 
 - 
 - 
@@ -70,21 +70,23 @@ the cascaded ------------------
 ## Expected waveform
 
 
-## Circuit implementation of PFD block.
+## Circuit implementation of DCA.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156123112-789b0da2-2559-439e-b673-d189e7744979.png">
+</p>
 
 
-## Circuit implementation of CP + LPF block.
+## Circuit implementation of Buffer.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156123294-b889795e-d15a-4dd5-a9ac-cad9b0215467.png">
+</p>
 
 
-## Circuit implementation of VCO block.
+## Circuit implementation of DCD.
 
-
-
-
-  
- 
- 
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156123459-df0a7c6b-432d-4a60-9749-556dab73402b.png">
+</p>
 
 ## Simulation Results
 
