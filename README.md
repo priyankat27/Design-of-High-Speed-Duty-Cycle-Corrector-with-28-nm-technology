@@ -6,10 +6,11 @@
 - Introduction
 - Reference Circuit Design
 - Expected waveform
-- 
-- 
-- 
-- 
+- Circuit implementation of DCD
+- Circuit implementation of Buffer
+- Circuit implementation of DCA
+- Simulation Results and Observations
+- Observation and Conclusion
 - Author
 - Acknowledgements
 - References
@@ -90,24 +91,28 @@ the cascaded ------------------
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100523474/156123597-db0b94bf-98bf-453a-bd06-a1b9d1c43d82.png">
-</p>
-## Simulation Results.
+</p></br>
 
-- CASE1
+## Simulation Results and Observations.
+
+
+- CASE1</br>
+DCC functionality is observed here . Waveform justifies that the 30% distortion in input waveform is  corrected by 46% at the output outwaveform. it has been verifed by the measurement tool.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100523474/156124066-437cc16c-6d56-409e-a323-9f16c4a72e1b.png">
   <img src="https://user-images.githubusercontent.com/100523474/156124170-ed9a35f4-f2fb-41ab-b8b0-c30cba1473fd.png">
 </p></br>
 
-- CASE2
-
+- CASE2</br>
+DCC functionality is observed here . Waveform justifies that the 30% distortion in input waveform is  corrected by 48% at the output outwaveform. it has been verifed by the measurement tool.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100523474/156124421-efc980b2-93d2-4065-b15f-7429974855e3.png">
   <img src="https://user-images.githubusercontent.com/100523474/156124494-7ffb47f3-58ff-4e75-9bcb-1b253a108f05.png">
 </p></br>
 
-- CASE3
+- CASE3</br>
+- DCC functionality is observed here . Waveform justifies that the 30% distortion in input waveform is  corrected by 50% at the output outwaveform. it has been verifed by the measurement tool.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100523474/156124611-a3b171af-5cd9-44f6-a15b-01256f470686.png">
@@ -115,23 +120,37 @@ the cascaded ------------------
 </p></br>
 
 
-## Conclusion
+## Observation and Conclusion
+By increasing the width of the nmos and pmos it is correcting the duty cycle more efficiently with the cost of power and leakage.</br>
+This duty cycle correction has the tendency to correct 30% to 70% distortion in the input  to almost 50% at the output. </br>
+</br>
+This Duty cycle Corrector circuit has been implemented with DCA, Buffer, DCD cascaded together with 28 nm cmos technology. 
+
 
 
 
 ## Author
+Priyanka Tiwari, BTech., Govt. Engg. college Raipur (Department of electronics Engineering)
 
 
 
 ## Acknowledgements
 
 - [Kunal Ghosh, Co-founder, VSD Corp. Pvt Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0xcWjpLDThSEo6S9UPO9Tw%3D%3D)
-- Chinmay Panda, IIT Hyderabad
+- Chinmaya Panda, IIT Hyderabad
 - [Synopsis Team/Company](synopsys.com/company/contact-synopsys/office-locations/india/about-synopsys-india.html)
 - [IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
 - Active and vibrant hackathon community
 
 ## References
-
+[1] S. M. Metev and V. P. Veiko, Laser Assisted Microtechnology, 2nd 
+ed., R. M. Osgood, Jr., Ed. Berlin, Germany: Springer-Verlag, 1998.
+[2] J. Breckling, Ed., The Analysis of Directional Time Series: 
+Applications to Wind Speed and Direction, ser. Lecture Notes in 
+Statistics. Berlin, Germany: Springer, 1989, vol. 61.o-RF converter,” 
+U.S. Patent 5 668
+[3] Chien Yu Lin and Heng Shou Hsu, Design of high frequency DCC
+with 20-80% correction range
+[4] Y.min.c.jiong ,DCC, with DDR DRAM.
 
 
