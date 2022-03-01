@@ -67,8 +67,6 @@ the cascaded ------------------
 
 
 
-## Expected waveform
-
 
 ## Circuit implementation of DCA.
 <p align="center">
@@ -88,8 +86,33 @@ the cascaded ------------------
 <img src="https://user-images.githubusercontent.com/100523474/156123459-df0a7c6b-432d-4a60-9749-556dab73402b.png">
 </p>
 
-## Simulation Results
+## Circuit implementation of DCC.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156123597-db0b94bf-98bf-453a-bd06-a1b9d1c43d82.png">
+</p>
+## Simulation Results.
+
+- CASE1
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156124066-437cc16c-6d56-409e-a323-9f16c4a72e1b.png">
+  <img src="https://user-images.githubusercontent.com/100523474/156124170-ed9a35f4-f2fb-41ab-b8b0-c30cba1473fd.png">
+</p></br>
+
+- CASE2
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156124421-efc980b2-93d2-4065-b15f-7429974855e3.png">
+  <img src="https://user-images.githubusercontent.com/100523474/156124494-7ffb47f3-58ff-4e75-9bcb-1b253a108f05.png">
+</p></br>
+
+- CASE3
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100523474/156124611-a3b171af-5cd9-44f6-a15b-01256f470686.png">
+  <img src="https://user-images.githubusercontent.com/100523474/156124675-c09c85f9-14da-4a9c-a956-c8d62d1a2f35.png">
+</p></br>
 
 
 ## Conclusion
